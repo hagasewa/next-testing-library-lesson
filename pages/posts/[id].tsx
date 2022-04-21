@@ -4,6 +4,7 @@ import React from 'react'
 import { Layout } from '../../components/Layout'
 import { getAllPostsId, getPostData } from '../../lib/fetch'
 import { POST } from '../../types/Types'
+
 const Post :React.FC<POST>= ({ id, title, body }) => {
 
   return (

@@ -1,13 +1,13 @@
-import { Layout } from "../components/Layout"
+import React from 'react'
+import { Layout } from '../components/Layout'
 
-
-const TaskPage: React.FC = () => {
-
+ const TaskPage = () => {
   return (
-    <Layout title="Todos">
-      <p className="text-4xl mb-10">todos page</p>
-     
+    <Layout title="ToDos">
+    <p className="text-4xl">
+     ToDos
+    </p>
     </Layout>
   )
 }
-export default TaskPage
+export default  TaskPage

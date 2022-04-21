@@ -1,11 +1,12 @@
-import { Layout } from "../components/Layout"
+import React from 'react'
+import { Layout } from '../components/Layout'
 
-const CommentPage: React.FC = () => {
-
-
+ const CommentPage = () => {
   return (
-    <Layout title="Comment">
-      <p className="text-4xl m-10">comment page</p>
+    <Layout title="CommentPage">
+    <p className="text-4xl">
+      CommentPage
+    </p>
     </Layout>
   )
 }

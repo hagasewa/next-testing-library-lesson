@@ -1,9 +1,12 @@
-import { Layout } from "../components/Layout"
+import React from 'react'
+import { Layout } from '../components/Layout'
 
-const ContextPage: React.FC = () => {
+const ContextPage = () => {
   return (
-    <Layout title="Context">
-      <p className="text-4xl mb-10">context page</p>
+    <Layout title="ContextPage">
+    <p className="text-4xl">
+      ContextPage
+    </p>
     </Layout>
   )
 }
