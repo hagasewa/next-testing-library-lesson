@@ -18,7 +18,7 @@
      render(page)
  
      userEvent.click(screen.getByTestId('blog-nav'))
-     expect(await screen.findByText('blog page')).toBeInTheDocument()
+     expect(await screen.findByText('BlogPage')).toBeInTheDocument()
      //screen.debug()
      userEvent.click(screen.getByTestId('comment-nav'))
      expect(await screen.findByText('comment page')).toBeInTheDocument()
