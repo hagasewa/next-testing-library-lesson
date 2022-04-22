@@ -10,7 +10,6 @@ interface PROPS {
 }
 
 const BlogPage :React.FC<PROPS>= ({ posts }) => {
-  console.log({ posts })
   return (
     <Layout title="Blog">
       <p className="text-4xl">

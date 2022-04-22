@@ -26,7 +26,7 @@ describe('Navigation by link ', () => {
     userEvent.click(screen.getByTestId('context-nav'))
     expect(await screen.findByText('ContextPage')).toBeInTheDocument()
     userEvent.click(screen.getByTestId('task-nav'))
-    expect(await screen.findByText('ToDos')).toBeInTheDocument()
+    expect(await screen.findByText('todos page')).toBeInTheDocument()
     userEvent.click(screen.getByTestId('home-nav'))
     expect(await screen.findByText('welcome to NextJS')).toBeInTheDocument()
   })
